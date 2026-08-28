@@ -1,0 +1,24 @@
+@import 'variables';
+
+body {
+    header {
+        .navbar {
+            background-color: $violet;
+
+            .nav-link {
+                margin-left: .5rem;
+                padding: 3px 5px 4px;
+                border-radius: 4px;
+
+                &:hover,
+                &.active {
+                    background-color: white;
+                    color: $violet;
+                }
+            }
+        }
+    }
+    main {
+
+    }
+}
